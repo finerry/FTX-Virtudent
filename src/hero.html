@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body class="h-[10000px]">
+    <header class="sticky top-0 left-0 w-full bg-PrimaryBg shadow-md z-50">
+      <div class="max-w-[1400px] mx-auto flex items-center justify-between py-4 px-4">
+        <div class="flex items-center gap-8">
+          <a href="#" class="flex-shrink-0">
+            <img src="../assets/ftxLogo.svg" width="100px" alt="FTX Logo" />
+          </a>
+          <div class="header-menu hidden md:flex items-center gap-6">
+            <a href="#" class="text-base text-white hover:text-primary">Markets</a>
+            <a href="#" class="text-base text-white hover:text-primary">Trade</a>
+            <a href="#" class="text-base text-white hover:text-primary">Derivatives</a>
+            <a href="#" class="text-base text-white hover:text-primary">Wallet</a>
+            <a href="#" class="text-base text-white hover:text-primary">Portfolio</a>
+          </div>
+        </div>
+
+        <div class="header-rightside flex items-center gap-3">
+          <div class="grouping-container max-[400px]:hidden">
+            <a href="#" class="btn-sm hover:text-primary">Log in</a>
+            <a href="#" class="btn-sm bg-primary text-black hover:bg-PrimaryHover">Sign Up</a>
+          </div>
+          <a href="" class="text-[#f9fafb] hover:text-primary transition-colors">
+            <svg class="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+              <path
+                d="M20.7 12a8.675 8.675 0 00-.522-2.969h-3.145a12.9 12.9 0 010 5.938h3.145A8.675 8.675 0 0020.7 12zM4.723 16.769a8.73 8.73 0 004.231 3.382L7.63 17.004a13.144 13.144 0 01-.097-.235h-2.81zm11.647.235l-1.325 3.147a8.73 8.73 0 004.232-3.382h-2.81a13.22 13.22 0 01-.097.235zM8.827 9.03a11.095 11.095 0 000 5.938h6.346c.54-1.943.54-3.995 0-5.938H8.827zm7.543-2.035c.033.078.066.157.097.235h2.81a8.73 8.73 0 00-4.232-3.383l1.325 3.148zM12 3.3c-.298 0-.592.016-.882.045L9.483 7.23h5.034L12.88 3.345A8.821 8.821 0 0012 3.3zm-3.046.548A8.73 8.73 0 004.723 7.23h2.81c.031-.078.064-.157.097-.235l1.324-3.148zM3.3 12c0 1.046.187 2.044.522 2.969h3.145a12.9 12.9 0 010-5.938H3.822A8.676 8.676 0 003.3 12zm19.2 0c0 1.366-.26 2.671-.735 3.868a10.51 10.51 0 01-8.66 6.574l-.548.043A10.7 10.7 0 0112 22.5v-1.8c.298 0 .592-.017.88-.046l1.637-3.885H9.483l1.635 3.885c.29.03.584.046.882.046v1.8a10.7 10.7 0 01-.557-.015l-.548-.043a10.51 10.51 0 01-8.66-6.574A10.473 10.473 0 011.5 12c0-1.195.2-2.344.567-3.414l.168-.454a10.513 10.513 0 018.291-6.53l.369-.044a10.625 10.625 0 012.21 0 10.51 10.51 0 018.66 6.574c.474 1.197.735 2.502.735 3.868z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="px-12">
+      <section class="hero py-10 max-w-[1200px] mx-auto">
+        <div class="hero-container flex flex-col gap-14 lg:gap-6 lg:flex-row">
+          <div class="hero-left w-full lg:w-1/2 flex flex-col sm:gap-8">
+            <div class="hero-left-top flex flex-col gap-8 items-center sm:items-start">
+              <h1 class="hero-title heroText flex flex-col sm:items-start">
+                <div class="text-primary">131,503,298</div>
+                <div>USERS</div>
+                <div>TRUST US</div>
+              </h1>
+              <div class="hero-logIn flex flex-col sm:flex-row gap-4">
+                <input class="inputPrimary hidden sm:block lg:w-[300px]" placeholder="Enter your email" />
+                <a
+                  href="#"
+                  class="btn bg-primary text-black hover:bg-PrimaryHover w-full max-w-[200px] text-center sm:w-auto"
+                >
+                  Sing Up
+                </a>
+              </div>
+            </div>
+            <div class="hero-left-bottom hidden sm:block">
+              <div class="group1 flex flex-col gap-4">
+                <div class="textCaption1">Or Continue With</div>
+                <div class="group-icon-nav flex gap-4">
+                  <a href="#" class="rounded-xl shadow-lg border border-PrimaryBorder p-2.5 hover:bg-[#2d323e]">
+                    <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M40.634 8.31118C37.5747 6.90741 34.294 5.87318 30.8638 5.28084C30.8013 5.2694 30.7389 5.29797 30.7067 5.35511C30.2848 6.10554 29.8175 7.08454 29.4902 7.85403C25.8008 7.30169 22.1304 7.30169 18.5166 7.85403C18.1893 7.06744 17.705 6.10554 17.2811 5.35511C17.249 5.29988 17.1866 5.27131 17.1241 5.28084C13.6958 5.87129 10.4151 6.90552 7.35387 8.31118C7.32737 8.3226 7.30465 8.34167 7.28958 8.36641C1.06678 17.6631 -0.6379 26.7313 0.19836 35.6871C0.202144 35.7309 0.22674 35.7729 0.260796 35.7995C4.36642 38.8146 8.34341 40.645 12.2466 41.8582C12.309 41.8773 12.3752 41.8545 12.415 41.803C13.3383 40.5422 14.1613 39.2127 14.867 37.8146C14.9086 37.7327 14.8688 37.6356 14.7837 37.6032C13.4783 37.108 12.2352 36.5042 11.0395 35.8186C10.9449 35.7633 10.9373 35.628 11.0243 35.5633C11.2759 35.3747 11.5276 35.1785 11.7679 34.9805C11.8114 34.9443 11.872 34.9366 11.9231 34.9595C19.7786 38.546 28.2831 38.546 36.0459 34.9595C36.097 34.9348 36.1576 34.9424 36.203 34.9786C36.4433 35.1766 36.6949 35.3747 36.9484 35.5633C37.0354 35.628 37.0298 35.7633 36.9352 35.8186C35.7394 36.5175 34.4964 37.108 33.189 37.6013C33.1039 37.6337 33.0661 37.7327 33.1077 37.8146C33.8285 39.2107 34.6515 40.5402 35.5578 41.8011C35.5957 41.8545 35.6637 41.8773 35.7262 41.8582C39.6483 40.645 43.6252 38.8146 47.7309 35.7995C47.7668 35.7729 47.7895 35.7328 47.7933 35.689C48.7942 25.3352 46.117 16.3413 40.6964 8.3683C40.6832 8.34167 40.6605 8.3226 40.634 8.31118ZM16.04 30.234C13.675 30.234 11.7263 28.0627 11.7263 25.3961C11.7263 22.7296 13.6372 20.5583 16.04 20.5583C18.4617 20.5583 20.3916 22.7486 20.3538 25.3961C20.3538 28.0627 18.4428 30.234 16.04 30.234ZM31.9895 30.234C29.6245 30.234 27.6758 28.0627 27.6758 25.3961C27.6758 22.7296 29.5867 20.5583 31.9895 20.5583C34.4113 20.5583 36.3411 22.7486 36.3033 25.3961C36.3033 28.0627 34.4113 30.234 31.9895 30.234Z"
+                        fill="#5865F2"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="rounded-xl shadow-lg border border-PrimaryBorder p-2.5 hover:bg-[#2d323e]">
+                    <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_17_40)">
+                        <path
+                          d="M23.9996 19.6363V28.9309H36.916C36.3488 31.9199 34.6468 34.4509 32.0941 36.1527L39.8831 42.1964C44.4213 38.0075 47.0395 31.8547 47.0395 24.5456C47.0395 22.8438 46.8868 21.2073 46.6031 19.6366L23.9996 19.6363Z"
+                          fill="#4285F4"
+                        />
+                        <path
+                          d="M10.5494 28.568L8.79263 29.9128L2.57434 34.7564C6.52342 42.589 14.6174 48 23.9991 48C30.4789 48 35.9116 45.8618 39.8826 42.1964L32.0936 36.1528C29.9554 37.5927 27.2281 38.4656 23.9991 38.4656C17.7591 38.4656 12.4575 34.2547 10.5592 28.5819L10.5494 28.568Z"
+                          fill="#34A853"
+                        />
+                        <path
+                          d="M2.57436 13.2436C0.938084 16.4726 0 20.1163 0 23.9999C0 27.8834 0.938084 31.5271 2.57436 34.7561C2.57436 34.7777 10.5599 28.5597 10.5599 28.5597C10.08 27.1197 9.79624 25.5925 9.79624 23.9996C9.79624 22.4067 10.08 20.8795 10.5599 19.4395L2.57436 13.2436Z"
+                          fill="#FBBC05"
+                        />
+                        <path
+                          d="M23.9996 9.55636C27.5342 9.55636 30.676 10.7781 33.1851 13.1345L40.0577 6.2619C35.8904 2.37833 30.4797 0 23.9996 0C14.6179 0 6.52342 5.38908 2.57434 13.2437L10.5597 19.44C12.4578 13.7672 17.7596 9.55636 23.9996 9.55636Z"
+                          fill="#EA4335"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_17_40">
+                          <rect width="48" height="48" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-right w-full lg:w-1/2 flex flex-col gap-6">
+            <div class="hero-right-topCard cardPrimary p-2">
+              <table class="w-full border-spac">
+                <thead>
+                  <tr>
+                    <th class="leaderboard-placement max-w-[40px]">#</th>
+                    <th class="game-rank">Rank</th>
+                    <th class="user-name">User</th>
+                    <th class="game-type">Game</th>
+                    <th class="earnings">Earnings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="pb-3">
+                    <td class="leaderboard-placement text-2xl font-bold text-Rank1">1</td>
+                    <td class="game-rank flex justify-center sm:justify-start">
+                      <img src="../assets/apex/apex-predator-badge.png" alt="" width="34" height="34" />
+                    </td>
+                    <td class="user-name">finerry</td>
+                    <td class="game-type">
+                      <div class="flex gap-2 items-center">
+                        <img src="../assets/apex/apex-legends-logo.png" alt="" width="34" height="34" />
+                        <span class="truncate">Apex Legends</span>
+                      </div>
+                    </td>
+                    <td class="earnings moneyNum">$84,471,789</td>
+                  </tr>
+                  <tr class="pb-3">
+                    <td class="leaderboard-placement text-xl font-semibold text-Rank2">2</td>
+                    <td class="game-rank flex justify-center sm:justify-start">
+                      <img src="../assets/clash-of-clans/clash-clans-legend.png" alt="" width="34" height="34" />
+                    </td>
+                    <td class="user-name">Gamze</td>
+                    <td class="game-type">
+                      <div class="flex gap-2 items-center">
+                        <img src="../assets/clash-of-clans/clash-clans-logo.png" alt="" height="34" width="34" />
+                        <span class="truncate">Clash of Clans</span>
+                      </div>
+                    </td>
+                    <td class="earnings moneyNum">$68,471,789</td>
+                  </tr>
+                  <tr class="pb-3">
+                    <td class="leaderboard-placement text-lg font-medium text-Rank3">3</td>
+                    <td class="game-rank flex justify-center sm:justify-start">
+                      <img src="../assets/apex/apex-predator-badge.png" alt="" width="34" height="34" />
+                    </td>
+                    <td class="user-name">Anonymous</td>
+                    <td class="game-type">
+                      <div class="flex gap-2 items-center">
+                        <img src="../assets/apex/apex-legends-logo.png" alt="" width="34" height="34" />
+                        <span class="truncate">Apex Legends</span>
+                      </div>
+                    </td>
+                    <td class="earnings moneyNum">$49,714,124</td>
+                  </tr>
+                  <tr class="pb-3">
+                    <td class="leaderboard-placement">4</td>
+                    <td class="game-rank flex justify-center sm:justify-start">
+                      <img src="../assets/ea-sports/fifa-champion.png" alt="" width="34" height="34" />
+                    </td>
+                    <td class="user-name">Vejrgang</td>
+                    <td class="game-type">
+                      <div class="flex gap-2 items-center">
+                        <img src="../assets/ea-sports/Ea-sport-logo.png" alt="" width="34" height="34" />
+                        <span class="truncate">FIFA FC 25</span>
+                      </div>
+                    </td>
+                    <td class="earnings moneyNum">$36,781,477</td>
+                  </tr>
+                  <tr class="pb-3">
+                    <td class="leaderboard-placement">5</td>
+                    <td class="game-rank flex justify-center sm:justify-start">
+                      <img src="../assets/marvels/marvel-above-all.png" alt="" height="34" width="34" />
+                    </td>
+                    <td class="user-name">MACE</td>
+                    <td class="game-type">
+                      <div class="flex gap-2 items-center">
+                        <img src="../assets/marvels/marvel-logo.png" alt="" height="34" width="34" />
+                        <span class="truncate">Marvel Rivals</span>
+                      </div>
+                    </td>
+                    <td class="earnings moneyNum">$31,678,147</td>
+                  </tr>
+                  <tr class="pb-3">
+                    <td class="leaderboard-placement">6</td>
+                    <td class="game-rank flex justify-center sm:justify-start">
+                      <img src="../assets/valorant/valorant-radiant.png" alt="" width="34" height="34" />
+                    </td>
+                    <td class="user-name">Antmo</td>
+                    <td class="game-type">
+                      <div class="flex gap-2 items-center">
+                        <img src="../assets/valorant/valorant-logo.png" alt="" width="34" height="34" />
+                        <span class="truncate">Valorant</span>
+                      </div>
+                    </td>
+                    <td class="earnings moneyNum">$24,784,456</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="hero-right-bottomCard cardPrimary py-6 px-8">
+              <div class="card-header flex justify-between mb-4">
+                <div class="heading4">News</div>
+                <a href="#" class="text-SecondaryText hover:text-SecondaryHover">View All News</a>
+              </div>
+              <div class="card-body flex flex-col gap-5 standardText">
+                <a href="#" class="hover:text-SecondaryHover">
+                  Battlefield 6 Dev Admits One of the Game's Biggest Problems is 'Probably Still Going to Be a Little
+                  Bit Clunky' At Launch
+                </a>
+                <a href="#" class="hover:text-SecondaryHover">
+                  New Call of Duty Update Could Be Great News for Players
+                </a>
+                <a href="#" class="hover:text-SecondaryHover">Mortal Kombat 2 Movie Release Date Gets Pushed Back</a>
+                <a href="#" class="hover:text-SecondaryHover">
+                  Battlefield 6 Leak Reveals Gameplay of the Games Biggest Launch Map
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

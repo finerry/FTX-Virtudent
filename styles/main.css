@@ -1,0 +1,125 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #22d3ee;
+  --color-secondary: #84cc16;
+  --color-PrimaryBg: #181a20;
+  --color-SecondaryBg: #20242b;
+  --color-TertiaryBg: #121518;
+  --color-PrimaryText: #f9fafb;
+  --color-SecondaryText: #99a1af;
+  --color-PrimaryBorder: #353945;
+  --color-Success: #11d695;
+  --color-Error: #d12d2d;
+  --color-Warning: #f97316;
+  --color-Rank1: #f59e0b;
+  --color-Rank2: #9ca3af;
+  --color-Rank3: #d97706;
+  --color-PrimaryHover: #00b3cc;
+  --color-SecondaryHover: #95f00a;
+  --color-SecondaryTextHover: #cacdd3;
+  --breakpoint-md: 800px;
+}
+
+@layer base {
+  body {
+    @apply bg-PrimaryBg text-PrimaryText font-sans;
+  }
+
+  td {
+    @apply font-medium text-sm md:text-base;
+  }
+
+  th {
+    @apply font-medium text-sm md:text-base;
+  }
+
+  td,
+  th {
+    @apply text-center sm:text-left p-1.5 md:p-2.5 whitespace-nowrap;
+  }
+}
+
+@layer components {
+  .cardPrimary {
+    @apply rounded-xl p-6 shadow-lg border border-PrimaryBorder bg-[#1e2129];
+  }
+
+  .cardSecondary {
+    @apply rounded-xl p-6 shadow-lg border border-PrimaryBorder;
+  }
+
+  .inputPrimary {
+    @apply px-4 py-3 outline-none rounded-lg bg-transparent border border-gray-700 text-gray-200 placeholder-gray-400 focus:border-primary hover:border-primary transition-all duration-200;
+  }
+
+  .btn {
+    @apply font-semibold border border-PrimaryBorder py-3 px-8 rounded-lg transition-all shadow-lg;
+  }
+
+  .btn-mid {
+    @apply font-semibold border border-PrimaryBorder py-2 px-6 rounded-md transition-all shadow-md;
+  }
+
+  .btn-sm {
+    @apply font-semibold border border-PrimaryBorder py-1.5 px-4 rounded transition-all shadow-sm;
+  }
+
+  .heroText {
+    @apply font-bold text-4xl leading-[1.1] sm:text-6xl sm:leading-[1.1] md:text-7xl md:leading-[1.1] lg:text-[78px] lg:leading-[88px] text-center md:text-left;
+  }
+
+  .heading1 {
+    @apply font-bold text-4xl sm:text-5xl md:text-6xl mb-8 md:mb-10;
+  }
+
+  .heading2 {
+    @apply font-semibold text-3xl sm:text-4xl mb-6 md:mb-8;
+  }
+
+  .heading3 {
+    @apply font-semibold text-xl sm:text-2xl mb-3 md:mb-4;
+  }
+
+  .heading4 {
+    @apply font-semibold text-lg sm:text-xl mb-2 md:mb-3;
+  }
+
+  .standardText {
+    @apply text-base mb-2 md:mb-3;
+  }
+
+  .bodyText {
+    @apply text-lg mb-2 md:mb-3;
+  }
+
+  .textCaption1 {
+    @apply text-sm text-gray-400;
+  }
+
+  .textCaption2 {
+    @apply text-xs text-gray-400;
+  }
+
+  .game-type {
+    @apply hidden sm:table-cell;
+  }
+
+  .gameCard-sm {
+    @apply w-[200px] rounded-lg overflow-hidden;
+  }
+
+  .gameCard-img {
+    @apply w-full object-cover;
+  }
+
+  .moneyNum {
+    @apply text-Success tracking-wider;
+  }
+}
+
+@layer utilities {
+  .svg-colorHover {
+    color: #00b3cc;
+  }
+}
