@@ -2,7 +2,7 @@
 
 @theme {
   --color-primary: #22d3ee;
-  --color-secondary: #84cc16;
+  --color-secondary: #facc15;
   --color-PrimaryBg: #181a20;
   --color-SecondaryBg: #20242b;
   --color-TertiaryBg: #121518;
@@ -16,7 +16,7 @@
   --color-Rank2: #9ca3af;
   --color-Rank3: #d97706;
   --color-PrimaryHover: #00b3cc;
-  --color-SecondaryHover: #95f00a;
+  --color-SecondaryHover: #eab308;
   --color-SecondaryTextHover: #cacdd3;
   --breakpoint-md: 800px;
 }
